@@ -1,0 +1,51 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+ .card {
+   background-color: #eaeaea;
+   border-radius: 8px;
+   padding: 20px;
+   margin: 10px;
+   text-align: center;
+ }
+ 
+ .card i {
+   font-size: 48px;
+   margin-bottom: 10px;
+   color: #c47c7c;
+ }
+ 
+ table {
+   width: 100%;
+   border: 1px solid #999999;
+   border-collapse: collapse;
+ }
+ 
+ th,
+ td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #999999;
+   padding: 0.5em;
+   caption-side: bottom;
+ }
+ 
+ caption {
+   padding: 0.5em;
+   color: #fff;
+   background: #999999;
+ }
+ 
+ th {
+   background: #cccccc;
+ }
+ .total-carrito {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 45%;
+}
